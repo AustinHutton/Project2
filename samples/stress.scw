@@ -1,0 +1,11 @@
+// Stress: adjacent tokens, lookalike keywords, and misleading comments.
+INTEGER PRINT123=000;
+FLOAT value=000.500;
+PRINT123=PRINT123+1-2*3/4;
+IF(!(PRINT123!=0)&(value<=1.0)||PRINT123>=2){PRINT PRINT123;}
+WHILE(PRINT123<3){PRINT123=PRINT123+1;}
+PRINT value;// @ _bad && 12.3.4 inside a comment must cause no errors
+PRINT 999999999999999999999999999999999999;
+PRINT 8.9.10;
+PRINT é;
+PRINT PRINT123;

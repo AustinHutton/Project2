@@ -1,0 +1,12 @@
+// Error test: each bad piece should produce one categorized error.
+INTEGER good=1;
+PRINT @;
+FLOAT bad=12.3.4;
+FLOAT leading=.5;
+FLOAT trailing=5.;
+INTEGER mixed=123abc;
+INTEGER _bad=2;
+IF(good=<3){PRINT good;}
+IF(good&&good){PRINT good;}
+PRINT |;
+PRINT good;

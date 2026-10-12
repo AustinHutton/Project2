@@ -1,0 +1,5 @@
+// Basic: declarations, input, arithmetic, and output.
+INTEGER x = 10;
+GET x;
+x = x + 1;
+PRINT x;

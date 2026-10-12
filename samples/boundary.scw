@@ -1,0 +1,9 @@
+// Boundary: keyword prefixes, leading zeros, and adjacent tokens.
+INTEGER IF_count=0;
+INTEGER if=007;
+FLOAT smallest=0.0;
+INTEGER large=999999999999999999999999999999;
+IF_count=IF_count+1;
+IF(IF_count>=1){PRINT IF_count;}
+PRINT if;
+PRINT large;// EOF comment: @ && 12.3.4

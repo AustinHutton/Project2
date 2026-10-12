@@ -1,0 +1,20 @@
+// Coverage: every SCW keyword, operator, and symbol.
+INTEGER x = 10;
+FLOAT y = 2.5;
+GET x;
+GET y;
+x = x + 1;
+x = x - 1;
+y = y * 2.0;
+y = y / 2.0;
+IF ((x == 10) & (y != 0.0)) {
+    PRINT x;
+} ELSE {
+    PRINT y;
+}
+WHILE ((x < 20) || (y > 1.0)) {
+    x = x + 1;
+}
+IF (!(x <= 30) & (y >= 0.0)) {
+    PRINT y;
+}
